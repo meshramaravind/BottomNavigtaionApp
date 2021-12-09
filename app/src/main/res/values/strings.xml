@@ -82,11 +82,4 @@
     <string name="text_login">Login</string>
 
 
-    <string-array name="courses">
-        <item>CBSE School</item>
-        <item>Graduation</item>
-        <item>Post Graduation</item>
-    </string-array>
-
-
 </resources>

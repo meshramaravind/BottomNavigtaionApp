@@ -77,18 +77,6 @@ dependencies {
     implementation "androidx.navigation:navigation-fragment-ktx:2.3.5"
     implementation "androidx.navigation:navigation-ui-ktx:2.3.5"
 
-    //Room
-    implementation "androidx.room:room-runtime:2.3.0"
-    kapt "androidx.room:room-compiler:2.3.0"
-    // Kotlin Extensions and Coroutines support for Room
-    implementation "androidx.room:room-ktx:2.3.0"
-
-    //SwipeRefreshLayout
-    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
-
-    //Paging 3
-    implementation "androidx.paging:paging-runtime-ktx:3.1.0"
-
     //activity & fragment ktx
     implementation "androidx.fragment:fragment-ktx:1.4.0"
     implementation "androidx.activity:activity-ktx:1.4.0"
@@ -106,23 +94,6 @@ dependencies {
 
     //Preference DataStore
     implementation "androidx.datastore:datastore-preferences:1.0.0"
-
-    //viewpager2
-    implementation 'androidx.viewpager2:viewpager2:1.0.0'
-
-    //Lottie Animation Library
-    implementation "com.airbnb.android:lottie:4.1.0"
-
-    implementation "com.github.skydoves:powerspinner:1.1.9"
-
-    // Facebook Shimmer
-    implementation 'com.facebook.shimmer:shimmer:0.1.0@aar'
-
-    //dexter permission
-    implementation 'com.karumi:dexter:6.2.2'
-
-    //Exo Player
-    implementation "com.google.android.exoplayer:exoplayer:2.16.1"
 
     //hilt
     implementation "com.google.dagger:hilt-android:2.38.1"
